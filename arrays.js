@@ -21,7 +21,7 @@ backpack.push(
   'Blue Milk',
   'Baby Yoda',
   'Baby Luke',
-  'Con Device',
+  'Com Device',
   'High Ground',
   'Blaster'
 );
@@ -29,5 +29,14 @@ backpack.push(
 // Babies crying, no more room
 let stroller = backpack.splice(3, 2);
 
+// Current inventory
 console.log(backpack);
-console.log(backpack, stroller);
+console.log(stroller);
+
+// Current length
+console.log(backpack.length);
+
+// Spell it all out
+for (let i = 0; i < backpack.length; i++) {
+  console.log(backpack[i]);
+}
